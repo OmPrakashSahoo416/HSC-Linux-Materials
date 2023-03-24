@@ -1,0 +1,25 @@
+Code walkthrough of bootloader
+
+-------------------------------------
+
+Recap of assembly part of bootloader
+
+-------------------------------------
+
+xv6.img -> bootblock, kernel
+
+bootblock -> bootasm.S, bootmain.c
+
+kernel -> objs and other files.
+
+bootmain.c:
+never returns.
+bootloader loads the kernel.
+
+kernel:
+is a elf format executable.
+
+$ objdump -p kernel -> prints all prog header in elf file.
+$ objdump -f kernel -> to get the start address.
+$ objdump -dx kernel -> to get the addresses of global vars.
+

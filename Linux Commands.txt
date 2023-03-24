@@ -1,0 +1,50 @@
+1. echo string => print the string.
+2. echo $0 => prints "-bash". and when SU shows bash only.
+3. whoami => current username using the shell.
+4. history => last used commands.
+5. apt => advanced package manager.
+6. sudo "command" => use as admin after entering password.
+7. apt install "package-name" => install a package.
+8. apt update => update the newly added packages.
+9. clear => clear screen.
+10. pwd => current directory.
+11. sudo su => become a super user (or admin).
+12. exit => exit from being a super user or exit the window.
+13. !number => the command u want to play in the history list.
+14. apt remove "package-name" => removes package installed.
+15. cd /mnt/"Drive-name" => to access the windows files.
+16. ls -1 => to show 1 file in 1 line.
+17. ls -l => to show more details of files.(permissions : 	directory : size : date added).
+18. cd ../../../..____ => move out of directories.(no. of 2dots 	and 	slash === no. of directories we want to get out).
+19. ls /folder_name => to list files in that dir.
+20. cd ~ => move to home directory.
+21. mkdir file_name => to create a file.
+22. mv old_name new_name => move / rename a directory.
+23. touch file_name => create new file.(can create multiple files)
+24. rm file_name => to remove a file.
+25. rm xyz* => to remove all the files starting with name xyz.
+26. rm -r dir_name/ => to remove a directory.(-r means 	recursively 	remove all the files in it.)
+27. cat file_name => to view / concatenate files.
+28. more file_name => to view large files showning by pages. But 	u cant scroll up.
+29. less file_name => to view in both directions.
+30. head -n line_number => first line numbers from top.
+31. tail -n line_number => last line numbers from bottom.
+32. ">" (redirection operator) => can be used with anything.
+>>> To concatenate the contents of file1 to file2.
+>>> To echo add ans replace the file with the string to any new 	file 	/ old file.
+>>> Can be used to add one thing to another.
+33. chmod 777 file_name => change file access rights.
+	777 => 111 111 111 (rwx rwx rwx)(owner grp.owner user)
+	644 => 110 100 100 ('')
+34. sudo chown user_name file_name => change file ownership.
+35. chgrp => change a file group ownership.
+36. In file permissions, - at first means regular file and d means
+	a directoryand - at other places means it is not +nt,(rwxpattern)
+	(fileowner - group owner - other users).
+37. grep -n string file_name => print the lines having the string 
+	along with the line number (because of -n).
+38. 
+ 
+
+
+

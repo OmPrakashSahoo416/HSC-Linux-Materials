@@ -1,0 +1,22 @@
+MakeFile pseudo
+----------------------
+
+
+target file1(try) : dependencies files( *.o )
+	cc main.o f.o g.o -o try //The making command
+target file2(try) : dependencies files( *.o )
+	cc -c main.o  //The making command
+target file3(try) : dependencies files( *.o )
+	cc -c f.o //The making command
+
+
+What is make command doing ???
+Ans: It reads the make file. It creates a dependency tree. It checks the timestamp
+of each file, whenever a file changes occur it invokes all actions corresponding to that
+dependent file iteratively.
+
+----------------------------------
+CC = /user/bin/gcc
+
+replace "cc" with $(CC). It wil invoke a user bin gcc.
+
